@@ -19,6 +19,4 @@ public class sameele {
     } 
 
 }
-//container with most water
 
-//leader element
