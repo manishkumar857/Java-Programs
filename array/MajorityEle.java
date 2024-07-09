@@ -11,11 +11,10 @@ public class MajorityEle
           
         int count = 0;  
           
-        // outer loop picks the element  
+        
         for(int i = 0 ; i < s; i++)  
         {  
-            // the inner loop counts the occurrence   
-            // of the element input[i]  
+              
             for(int j = 0; j < s; j++)  
             {  
                 if(inputArr[i] == inputArr[j])  
@@ -24,8 +23,7 @@ public class MajorityEle
                 }  
             }  
               
-            // if count is greater than half of s,  
-            // we have our answer  
+           
             if(count > s / 2)  
             {  
                 return inputArr[i];  
@@ -94,4 +92,4 @@ public class MajorityEle
     }  
   
 }  
-}
+
