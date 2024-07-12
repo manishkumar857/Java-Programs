@@ -15,10 +15,12 @@ public class Linkedlist1 {
         node2.next = node3;
         node3.next = node4;
 
-        display(head);
+        display(head); 
     }
 
         public static void display(Node head)
+
+
         {
             Node curr = head;
             while(curr!=null)
