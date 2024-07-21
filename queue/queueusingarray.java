@@ -1,7 +1,5 @@
 package queue;
 
-import array.arr;
-
 public class queueusingarray {
     static class Queue{
          static int arr[];
@@ -10,12 +8,13 @@ public class queueusingarray {
 
         Queue(int n)
         {
-            arr = new int[n];
+            arr = new int[n]; 
+            
             size = n;
             rear =-1;
         }
 
-        public static boolean isEmpty(){
+        public boolean isEmpty(){
             return rear == -1;
         }
     
