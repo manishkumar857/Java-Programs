@@ -10,8 +10,9 @@ public class stacktooppstack {
     ArrayDeque<Integer> stack2 = new ArrayDeque<>();
     stack.push(10);
     stack.push(20);
+    
     stack.push(30);
-    stack.push(40);
+    stack.push(40); 
     System.out.println(stack);
     for(int i:stack){
         stack2.push(i);

@@ -39,7 +39,7 @@ public class Tree {
        
 
 
-    }
+    } 
     static class Node{
         int data;
         Node left;
