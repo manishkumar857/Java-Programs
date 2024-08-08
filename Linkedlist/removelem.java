@@ -112,6 +112,35 @@ public class removelem {
         size--;
         return val;
     }
+
+    public int removeLast()
+    {
+        if(size==0)
+        {
+            System.out.println("ll is empty");
+            return Integer.MIN_VALUE;
+
+        }else if(size==1)
+        {
+            int val = head.data;
+            head=tail=null;
+            size=0;
+            return val;
+        }
+        Node prev=head;
+
+        //prev i=size-2
+        for(int i=0;i<size-2;i++)
+        {
+            prev=prev.next;
+        }
+        int val =tail.data;
+        prev.next=null;
+        tail=prev;
+        size--;
+        return val;
+
+    }
     public static void main(String[] args) {
 
        removelem ll = new removelem();
@@ -122,7 +151,13 @@ public class removelem {
        ll.Addmiddle(2,9);
 
        ll.display();
-       System.out.println(addmiddle.size);
+       System.out.println(removelem.size);
+       ll.removefirst();
+       ll.display();
+       ll.removeLast();
+       ll.display();
+       System.out.println(removelem.size);
+       ll.display();
     }
 }
 
