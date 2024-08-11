@@ -92,6 +92,8 @@ public class reversell {
        ll.display();
        ll.reverse();
        ll.display();
+
+       // time complexity of this is BIG O n
     }
 }
 
