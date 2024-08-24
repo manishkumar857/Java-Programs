@@ -16,6 +16,7 @@ public class a {
     static int x =10;
     public static void main(String args[])
     {
+        //String is a class name and args is a array object
 
         // main method is static as not any object of the method is not created and we want to acess the main method
         // and static helps to acess the method without the object creation
