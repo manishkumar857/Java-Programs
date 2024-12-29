@@ -52,9 +52,6 @@ public class hashset {
         System.out.print(it.next()+" ");
         
     }
-
-
     }
     
-
 }
